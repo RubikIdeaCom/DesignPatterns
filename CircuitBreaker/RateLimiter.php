@@ -17,7 +17,7 @@ class RateLimiter
      *
      * @return void
      */
-    public function __construct(Cache $cache)
+    public function __construct($cache)
     {
         $this->cache = $cache;
     }
