@@ -27,4 +27,4 @@ class ShoppingCart {
         }
         $payment->pay($this->amount);
     }
-}
+} 

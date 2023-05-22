@@ -11,4 +11,4 @@ $cart->payAmount();
 echo '<br />';
 
 $cart = new ShoppingCart(1000000);
-$cart->payAmount();
+$cart->payAmount(); 
