@@ -5,4 +5,4 @@ class CarModelR implements Car {
     public function getModel() {
         return $this->model;
     }
-}
+} 
