@@ -11,4 +11,4 @@ class SokanPalAdapter implements PaymentAdapter {
     public function pay($amount) {
         $this->sokanPal->pleaseDoPayment($amount);
     }
-}
+} 

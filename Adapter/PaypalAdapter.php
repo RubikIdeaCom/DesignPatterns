@@ -10,4 +10,4 @@ class PayPalAdapter implements PaymentAdapter {
     public function pay($amount) {
         $this->payPal->sendPayment($amount);
     }
-}
+} 
