@@ -7,4 +7,4 @@ class NewYearEmailBody extends EmailBodyDecorator {
         echo 'This is the extra content for the New Year.<br />';
         $this->emailBody->loadBody();
     }
-}
+} 

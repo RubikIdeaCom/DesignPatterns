@@ -7,4 +7,4 @@ class YaldaEmailBody extends EmailBodyDecorator {
         echo 'This is the extra content for Yalda.<br />';
         $this->emailBody->loadBody();
     }
-}
+} 

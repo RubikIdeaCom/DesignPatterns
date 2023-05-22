@@ -7,4 +7,4 @@ abstract class EmailBodyDecorator implements EmailBody {
         $this->emailBody = $emailBody;
     }
     abstract public function loadBody();
-}
+} 

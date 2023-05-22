@@ -17,4 +17,4 @@ require_once 'NewYearEmailBody.php';
 $email = new Email();
 $email = new YaldaEmailBody($email);
 $email = new NewYearEmailBody($email);
-$email->loadBody();
+$email->loadBody(); 
